@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Monetization from './components/monetization/Monetization'
 import HelloWorld from './components/HelloWorld'
 import About from './components/About'
-import DinosaurCalculator from './components/DinosaurCalculator'
+import HedgehogCalculator from './components/HedgehogCalculator'
 import Navigation from './components/Navigation'
 import { getRouterBasename } from './utils/routerUtils'
 
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HelloWorld />} />
           <Route path="/about" element={<About />} />
-          <Route path="/calculator" element={<DinosaurCalculator />} />
+          <Route path="/calculator" element={<HedgehogCalculator />} />
         </Routes>
       </Router>
     </Monetization>
